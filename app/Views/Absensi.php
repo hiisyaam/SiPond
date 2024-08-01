@@ -8,7 +8,7 @@
         <div class="container-fluid">
 
 <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Absensi Unit <?= $unit ?></h1>
+        <h1 class="h3 mb-2 text-gray-800">Absensi <?= $unit ?></h1>
         <div class="card shadow mb-4">
                 <div class="row">
                     <div class="col-8 mx-3 mb-1">
