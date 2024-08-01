@@ -17,5 +17,9 @@ $routes->get('/tampilData/guru','ListData::guru');
 $routes->get('/tampilData/staffTU','ListData::staffTU');
 $routes->get('/tampilData/amil','ListData::amil');
 
-
 $routes->get('/absensi/sd','Absen::SD');
+$routes->get('/absensi/smp','Absen::SMP');
+$routes->get('/absensi/sma','Absen::SMA');
+$routes->get('/absensi/karyawan','Absen::karyawan');
+
+$routes->get('/tahfidz/listHalaqoh','Tahfidz::index');
