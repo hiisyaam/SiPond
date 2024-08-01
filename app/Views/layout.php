@@ -105,10 +105,10 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Absensi Santri</h6>
                         <a class="collapse-item" href="/absensi/sd">SD</a>
-                        <a class="collapse-item" href="#">SMP</a>
-                        <a class="collapse-item" href="#">SMA</a>
+                        <a class="collapse-item" href="/absensi/smp">SMP</a>
+                        <a class="collapse-item" href="/absensi/sma">SMA</a>
                         <h6 class="collapse-header">Absensi Karyawan</h6>
-                        <a class="collapse-item" href="#">Absensi Karyawan</a>
+                        <a class="collapse-item" href="/absensi/karyawan">Absensi Karyawan</a>
                     </div>
                 </div>
             </li>
@@ -134,7 +134,7 @@
                 <div id="collapseTahfidz" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">KATEGORI</h6>
-                        <a class="collapse-item" href="#">Data Halaqoh</a>
+                        <a class="collapse-item" href="/tahfidz/listHalaqoh">Data Halaqoh</a>
                         <a class="collapse-item" href="#">Rekap Tahfidz</a>
                     </div>
                 </div>
@@ -418,14 +418,14 @@
                 <!-- Footer -->
                 
                 <!-- End of Footer -->
-                <footer class="sticky-footer bg-white" style="display: flex;">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Your Website 2021</span>
-                        </div>
-                    </div>
-                </footer>
             </div>
+            <footer class="sticky-footer bg-white" style="display: flex;">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Riyadus Salihin 2024</span>
+                    </div>
+                </div>
+            </footer>
             <!-- End of Content Wrapper -->   
         </div>
 
