@@ -13,4 +13,14 @@ class Tahfidz extends BaseController
         ];
         return view('/tahfidz/dataHalaqoh',$data);
     }
+
+    public function rekapTahfidz():string
+    {
+        helper('date');
+        $data = [
+            'title' => 'Tahfidz | Rekap Tahfidz',
+            'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s'))
+        ];
+        return view('/tahfidz/rekap',$data);
+    }
 }

@@ -113,8 +113,31 @@
                 </div>
             </li>
 
+
+            
+            <!-- KESEHATAN-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseKesehatan"
+                    aria-expanded="true" aria-controls="collapseKesehatan">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-prescription2" viewBox="0 0 16 16">
+                        <path d="M7 6h2v2h2v2H9v2H7v-2H5V8h2z"/>
+                        <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1zm2 3v10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V4zM3 3h10V1H3z"/>
+                    </svg>
+                    <span>KESEHATAN</span>
+                </a>
+                <div id="collapseKesehatan" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="/Kesehatan/kesehatan">Input Pasien</a>
+                        <a class="collapse-item" href="/Kesehatan/dataPasien">Data Pasien</a>
+                    </div>
+                </div>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider">
+
+            
 
             <!-- Heading -->
             <div class="sidebar-heading">
@@ -135,7 +158,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">KATEGORI</h6>
                         <a class="collapse-item" href="/tahfidz/listHalaqoh">Data Halaqoh</a>
-                        <a class="collapse-item" href="#">Rekap Tahfidz</a>
+                        <a class="collapse-item" href="/tahfidz/rekap">Rekap Tahfidz</a>
                     </div>
                 </div>
             </li>
@@ -154,8 +177,11 @@
                 <div id="collapseKesantrian" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">KATEGORI</h6>
-                        <a class="collapse-item" href="#">Perizinan</a>
-                        <a class="collapse-item" href="#">Pelanggaran Santri</a>
+                        <a class="collapse-item" href="/Kesantrian/penilaian">Nilai Santri</a>
+                        <a class="collapse-item" href="/Kesantrian/dataNilai">Rekap Nilai Santri</a>                       
+                        <a class="collapse-item" href="/Kesantrian/izin">Perizinan</a>
+                        <a class="collapse-item" href="/Kesantrian/dataPerizinan">Data Perizinan</a>
+                        <a class="collapse-item" href="/Kesantrian/pelanggaran">Pelanggaran Santri</a>
                     </div>
                 </div>
             </li>
@@ -171,10 +197,7 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">DATA MAPEL</h6>
-                        <a class="collapse-item" href="#">SD</a>
-                        <a class="collapse-item" href="#">SMP</a>
-                        <a class="collapse-item" href="#">SMA</a>
+                        <a class="collapse-item" href="/mapel">Data Mata Pelajaran</a>
                         <div class="collapse-divider"></div>
                     </div>
                 </div>
@@ -198,6 +221,25 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Pengumuman -->
+            <li class="nav-item">
+                <a class="nav-link" href="/pengumuman">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+                    <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25 25 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009l.496.008a64 64 0 0 1 1.51.048m1.39 1.081q.428.032.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a66 66 0 0 1 1.692.064q.491.026.966.06"/>
+                </svg>
+                    <span>Pengumuman</span></a>
+            </li>
+
+
+            <!-- Prestasi -->
+            <li class="nav-item">
+                <a class="nav-link" href="/prestasi">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                    <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+                </svg>
+                    <span>Prestasi</span></a>
+            </li>
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
@@ -474,6 +516,8 @@
     <script src="<?=base_url('template')?>/js/demo/chart-area-demo.js"></script>
     <script src="<?=base_url('template')?>/js/demo/chart-pie-demo.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     
 
 </body>

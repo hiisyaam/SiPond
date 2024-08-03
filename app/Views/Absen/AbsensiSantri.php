@@ -8,12 +8,13 @@
         <div class="container-fluid">
 
 <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Absensi <?= $unit ?></h1>
+        
         <div class="card shadow mb-4">
                 <div class="row">
                     <div class="col-8 mx-3 mb-1">
                         <form action="">
                             <div class="mt-3">
+                            <h1 class="h3 mb-2 text-gray-800">Absensi <?= $unit ?></h1>
                                 <label for="jurusan">Pilih Kelas</label>
                                     <select class="form-control" aria-label="Default select example" name="jurusan">
                                             <option selected>--Pilih Kelas--</option>
@@ -23,6 +24,15 @@
                                             <option>6 SD</option>
                                                             
                                     </select>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-8 mx-3 mb-1">
+                        <form action="">
+                            <div class="mt-3">
+                                <label for="jurusan">Masukan Hari</label>
+                                    <input type="date" class="form-control" required autocomplete="false">
                             </div>
                         </form>
                     </div>

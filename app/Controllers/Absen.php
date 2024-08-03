@@ -21,7 +21,7 @@ class Absen extends BaseController
             'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s')),  
             'unit' => 'Unit SD'         
         ];
-        return view('absensi',$data);
+        return view('/Absen/AbsensiSantri',$data);
     }
 
     public function SMP():string
@@ -32,7 +32,7 @@ class Absen extends BaseController
             'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s')),  
             'unit' => 'Unit SMP'         
         ];
-        return view('absensi',$data);
+        return view('/Absen/AbsensiSantri',$data);
     }
 
     public function SMA():string
@@ -43,7 +43,7 @@ class Absen extends BaseController
             'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s')),  
             'unit' => 'Unit SMA'         
         ];
-        return view('absensi',$data);
+        return view('/Absen/AbsensiSantri',$data);
     }
 
     public function karyawan():string
@@ -54,6 +54,6 @@ class Absen extends BaseController
             'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s')),  
             'unit' => 'Karyawan'         
         ];
-        return view('absensi',$data);
+        return view('/Absen/AbsensiKaryawan',$data);
     }
 }

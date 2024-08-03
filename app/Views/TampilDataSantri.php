@@ -4,13 +4,13 @@
 
 <div class="container-fluid">
 
-<!-- Page Heading -->
-<h1 class="h3 mb-2 text-gray-800">Data Santri <?= $unit ?></h1>
-<p class="mb-4">Untuk memudahkan pencarian, gunakan fitur filter data dibawah ini.</p>
-
-<div class="card shadow mb-4">
-    <div class="row">
-        <div class="col-8 mx-3 mb-1">
+    
+    <div class="card shadow mb-4">
+        <div class="row">
+            <div class="col-8 mx-3 mb-1">
+            <!-- Page Heading -->
+            <h1 class="h3 mb-1 mt-3 text-gray-800">Data Santri <?= $unit ?></h1>
+            <p class="mb-4">Untuk memudahkan pencarian, gunakan fitur filter data dibawah ini.</p>
             <form action="">
                 <div class="mt-3">
                     <label for="jurusan">Pilih Kelas</label>

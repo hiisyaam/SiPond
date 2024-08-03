@@ -18,4 +18,32 @@ class Home extends BaseController
     {
         return view('login');
     }
+
+    public function prestasi() : string {
+        helper('date');
+        $data = [
+            'title' => 'Data Pretasi Santri',
+            'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s'))
+        ];
+        return view('prestasi',$data);
+    }
+
+    public function pengumuman(){
+        helper('date');
+        $data = [
+            'title' => 'Form Pengumuman',
+            'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s'))
+        ];
+        return view('pengumuman',$data);
+    }
+
+    public function mapel(){
+        helper('date');
+        $data = [
+            'title' => 'Data Mata Pelajaran',
+            'tanggal_sekarang' => format_hari_tanggal(date('Y-m-d H:i:s'))
+        ];
+        return view('mapel',$data);
+
+    }
 }
